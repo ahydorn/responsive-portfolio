@@ -161,10 +161,12 @@ textarea {
     }
     .portfolio-images {
         float: center;
-        height: 30%;
-        width: 30%;
+        height: 60%;
+        width: 60%;
     }
-    #portfolio {
-        width: none;
+    #portfolio-box {
+        width: ;
+        padding: none;
+        margin: none;
     }
 }

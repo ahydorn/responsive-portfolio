@@ -26,9 +26,7 @@ body {
 #about-me {
     border: 2px solid olive;
     padding: 25px;
-    length: 200px;
-    height: 500px;
-    width: 960px;
+    width: 60%;
     margin-left: 20%;
     background-color: rgb(230, 230, 230);
     font-size: 14pt;
@@ -112,8 +110,7 @@ textarea {
     color: olive;
     border: 2px solid olive;
     background-color: rgb(230, 230, 230);
-    height: 500px;
-    width: 960px;
+    width: 60%;
     margin-left: 20%;
     padding: 20px;
 }
@@ -133,16 +130,15 @@ textarea {
 /* Image class (GitHub and LinkedIn logos) formatting on portfolio page */
 
 .portfolio-images {
-    float: left;
+    float: center;
+    width: 200px;
     height: 200px;
     border: 2px solid black;
-    margin-top: 70px;
-    margin-left: 150px;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 
-/*~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~ Media Queries ~~~~~~~~~~*/
 
 @media (max-width: 980px) {}
 
@@ -154,5 +150,11 @@ textarea {
     }
     #about-me {
         font-size: 10pt;
+    }
+    .portfolio-images {
+        float: center;
+    }
+    #portfolio {
+        width: 90%;
     }
 }

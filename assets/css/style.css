@@ -1,0 +1,143 @@
+/* Begin Index CSS */
+
+
+/* Background Image */
+
+body {
+    background-image: url("../images/white-waves.png");
+}
+
+
+/* Bootstrap Jumbotron */
+
+.jumbotron {
+    text-align: center;
+    background-image: url("http://eskipaper.com/images/gray-wallpaper-2.jpg");
+    color: white;
+    font-family: arial;
+    border-bottom: 4px solid rgb(130, 126, 126);
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+
+/* About Me Section */
+
+#about-me {
+    border: 2px solid olive;
+    padding: 25px;
+    length: 200px;
+    height: 500px;
+    width: 960px;
+    margin-left: 20%;
+    background-color: rgb(230, 230, 230);
+    font-size: 14pt;
+    line-height: 1.5;
+    font-family: "Arial', 'Helvetica Neue', Helvetica, sans-serif";
+}
+
+
+/* About Me Heading */
+
+#about-me-heading {
+    color: olive;
+    font-size: 20pt;
+    border-bottom: 2px solid olive;
+    font-size: 30pt;
+    font-family: "'Georgia', Times, Times New Roman, serif";
+}
+
+
+/* Photo */
+
+#me-pic {
+    float: left;
+    padding-right: 20px;
+}
+
+
+/* Begin Contact Page CSS */
+
+#contact {
+    color: olive;
+    border-bottom: 2px solid olive;
+}
+
+
+/* Contact form heading */
+
+#contact-heading: {
+    font-size: 20pt;
+    font-family: "'Georgia', Times, Times New Roman, serif";
+}
+
+
+/* Message submission formatting */
+
+#message-submission {
+    border: 2px solid olive;
+    padding: 20px;
+    height: 550px;
+    width: 960px;
+    margin-left: 20%;
+    color: black;
+    background-color: rgb(230, 230, 230);
+    font-family: "Arial', 'Helvetica Neue', Helvetica, sans-serif";
+}
+
+
+/* Bigger "Message" box formatting */
+
+textarea {
+    height: 200px;
+    width: 500px;
+    color: darkgray;
+}
+
+
+/* Bootstrap "Send!" button formatting */
+
+.btn {
+    margin-top: 20px;
+    font-family: "Arial', 'Helvetica Neue', Helvetica, sans-serif";
+}
+
+
+/* Portfolio Page CSS Start */
+
+
+/* Portfolio Page Formatting */
+
+#portfolio {
+    color: olive;
+    border: 2px solid olive;
+    background-color: rgb(230, 230, 230);
+    height: 500px;
+    width: 960px;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+
+/* Portfolio Heading Formatting */
+
+#portfolio-heading {
+    color: olive;
+    font-family: "'Georgia', Times, Times New Roman, serif";
+    font-size: 20pt;
+    border-bottom: 2px solid olive;
+    font-size: 30pt;
+}
+
+
+/* Image class (GitHub and LinkedIn logos) formatting on portfolio page */
+
+.portfolio-images {
+    /* margin-top: 10%; */
+    float: left;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 20px;
+}

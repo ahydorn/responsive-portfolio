@@ -133,7 +133,6 @@ textarea {
 /* Image class (GitHub and LinkedIn logos) formatting on portfolio page */
 
 .portfolio-images {
-    /* margin-top: 10%; */
     float: left;
     height: 200px;
     border: 2px solid black;
@@ -149,4 +148,11 @@ textarea {
 
 @media (max-width: 768px) {}
 
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+    h1 {
+        position: static;
+    }
+    #about-me {
+        font-size: 10pt;
+    }
+}
